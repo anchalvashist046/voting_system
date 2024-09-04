@@ -1,0 +1,136 @@
+/* styles.css */
+body {
+    font-family: "Lucida Handwriting", cursive;
+    background-color: #F5EFE6;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #4F6F52;
+    color:#F5EFE6;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-container {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+}
+
+.heading {
+    margin: 0;
+    font-size: 30px;
+    color:#F5EFE6;
+}
+
+.navbar {
+    display: flex;
+    text-align:center;
+    justify-content: space-between;
+    font-family:"Lucida Handwriting", cursive ;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 23px;
+    padding: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: #F5EFE6;
+    text-decoration: none;
+}
+h1{
+    text-align:center;
+    font-family:"Lucida Handwriting", cursive;
+    color:#4F6F52;
+    padding-right: 530px;
+}
+body {
+    font-family: "Lucida Handwriting", cursive;;
+    margin: 0;
+    padding: 0;
+    background-color:#E8DFCA;
+    color:#1A4D2E;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color:#F5EFE6;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    text-align: center;
+   
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #1A4D2E;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #3c4044;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color:#4F6F52;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color:#1A4D2E;
+}
+
+a {
+    color: #1A4D2E;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: inherit;
+    bottom: 0;
+    width: 100%;
+}
+

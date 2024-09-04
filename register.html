@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-Elect Registration</title>
+    <link rel="stylesheet" href="./cssfiles/register.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <img src="./images-assets/logo.jpg" alt="Web-Elect Logo" class="logo">
+        </div>
+        <h1 class="heading">Web-Elect</h1>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="./home.html" class="nav-link"><i class="fas fa-home"></i> Home</a></li>
+                <li class="nav-item"><a href="./login.html" class="nav-link"><i class="fas fa-sign-in-alt"></i> Sign in</a></li>
+                <li class="nav-item"><a href="./register.html" class="nav-link"><i class="fas fa-user-plus"></i> Register yourself</a></li>
+                <li class="nav-item"><a href="./contact.html" class="nav-link"><i class="fas fa-envelope"></i> Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <form method="POST" action="./phpfiles/register.php">
+            <h2>Register</h2>
+            <hr>
+            <p style="color:black">Please fill in this form to create an account.</p>
+            
+            <label for="name"><b>Name :</b></label>
+            <input type="Text" name="name" placeholder="Name" required><br><br>
+
+
+            <label for="mobile"><b>Mobile:</b></label>
+            <input type="Number" name="mobile" placeholder="Enter Mobile" required><br><br>
+
+            <!--new added-->
+            <label for="age"><b>Age:</b></label>
+            <input type="Number" name="age" placeholder="Enter your age" required><br><br>
+
+           
+            <label for="password"><b>password:</b></label>
+            <input type="password" name="password" placeholder="Enter Password" required><br><br>
+
+
+            <label for="cpassword"><b>confirm Password:</b></label>
+            <input type="password" placeholder="Confirm Password" name="cpassword" id="cpassword" required><br><br>
+
+            <label for="address"><b>Address:</b></label>
+            <input type="address" placeholder="address" name="address" id="address" required><br><br>
+
+
+            <label for="role"><b>Role:</b></label>
+            <select name="role" required>
+                <option value="1">Voter</option>
+                <option value="2">Group</option>
+            </select><br><br>
+            <hr>
+
+            <button type="submit">Register</button>
+
+            <p>Already have an account? <a href="./login.html">Log in</a>.</p>
+
+        </form>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Web-Elect. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

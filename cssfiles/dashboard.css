@@ -1,0 +1,123 @@
+h2{
+     text-align: center;
+}
+
+h1{
+    padding-right:822px; ;
+}
+
+body {
+    font-family: "Lucida Handwriting", cursive;
+    background-color:#E8DFCA;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #4F6F52;
+    color: white;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+}
+
+.heading {
+    margin: 0;
+    font-size: 30px;
+    color:#F5EFE6;}
+
+.navbar {
+    display: flex;
+    text-align:center;
+    
+    font-family:"Lucida Handwriting", cursive ;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 23px;
+    padding: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: #F5EFE6;
+    text-decoration: none;}
+
+hr {
+    border: 1px solid #4F6F52;
+    margin: 0;
+}
+#group {
+    margin:30px 30px 30px 450px;
+    padding: 30px; 
+    border-radius: 5px;
+    background-color:#F5EFE6; 
+    max-width:400px;
+    height:80%;
+    float:center;
+    align-items: center;
+}
+
+
+
+#votebtn{
+    padding:5px;
+    font-size:15px;
+    background-color:#4F6F52;
+    color:white;
+    border-radius:5px; 
+}
+
+#profile {
+    max-width: 400px;
+    margin:30px 30px 30px 450px;
+    padding: 30px;
+    background-color:#F5EFE6;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border:30px;
+    align-items: center;
+   
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding:10px;
+    position: inherit;
+    
+    width: 100%;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 100;
+    width: 100%;
+}
+
+
+
+
+

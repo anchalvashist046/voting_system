@@ -1,0 +1,149 @@
+/* styles.css */
+h1{
+    padding-right:530px; ;
+}
+
+body {
+    font-family: "Lucida Handwriting", cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #E8DFCA;
+}
+
+
+.header {
+    background-color: #4F6F52;
+    color:#F5EFE6;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.logo-container {
+    width: 70px; /* Adjust size of the circular container */
+    height: 70px;
+    border-radius: 50%; /* Makes it circular */
+    overflow: hidden; /* Ensures the image doesn't overflow */
+    
+}
+
+.logo {
+    width: 100%; /* Ensures the image fills the circular container */
+    height: auto; /* Maintains aspect ratio */
+}
+
+
+.heading {
+    margin: 0;
+    font-size: 30px;
+    font-family:"Lucida Handwriting", cursive;
+    color: #F5EFE6;
+    
+}
+
+.navbar {
+    display: flex;
+    text-align:center;
+    
+    font-family:"Lucida Handwriting", cursive ;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 23px;
+    padding:0;
+    display: flex;
+
+    
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: #F5EFE6;
+    text-decoration: none;
+}
+
+.hero {
+    
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+    color:#E1AFD1;
+    background-color:#E8DFCA;
+   /* background-image: url(../images-assets/easy_voting.jpg);
+     filter: blur(10px);*/
+
+}
+
+.hero-heading {
+    margin: 0;
+    font-size: 40px;
+    font-family:"Lucida Handwriting", cursive;
+    color:#1A4D2E;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #1A4D2E;
+    margin-bottom: 20px;
+    padding:30px;
+    font-family:"Lucida Handwriting", cursive;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color:#4F6F52;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #1A4D2E;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.feature {
+    padding: 20px;
+    margin: 0 10px;
+    background-color: #F5EFE6;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1;
+}
+
+.feature-image {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.feature-heading {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+}
+
+.feature-text {
+    color: #555;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 100;
+    width: 100%;
+}

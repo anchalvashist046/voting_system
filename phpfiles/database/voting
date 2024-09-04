@@ -1,0 +1,25 @@
+-- Create the user table
+CREATE TABLE user (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    mobile VARCHAR(15) UNIQUE NOT NULL, -- Unique constraint to prevent duplicate mobile numbers
+    age INT NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    address VARCHAR(255) NOT NULL,
+    role VARCHAR(50) NOT NULL,
+    status INT DEFAULT 0, -- Default status set to 0
+    vote INT DEFAULT 0 -- Default vote set to 0
+);
+
+-- Trigger to update status to 1 once a person votes
+DELIMITER //
+CREATE TRIGGER update_status_after_vote
+AFTER UPDATE ON user
+FOR EACH ROW
+BEGIN
+    IF NEW.vote > 0 THEN
+        UPDATE user SET status = 1 WHERE id = NEW.id;
+    END IF;
+END;
+//
+DELIMITER ;
